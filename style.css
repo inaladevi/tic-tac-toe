@@ -115,9 +115,9 @@ button:hover {
 
 #game-container {
     display: grid;
-    grid-template-columns: repeat(3, min(20vmin, 140px));
-    grid-template-rows: repeat(3, min(20vmin, 140px));
-    gap: 10px;
+    grid-template-columns: repeat(3, clamp(80px, 15vh, 130px)); 
+    grid-template-rows: repeat(3, clamp(80px, 15vh, 130px));
+    gap: 12px;
 }
 
 .cell {
